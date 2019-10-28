@@ -1,0 +1,5 @@
+# Assignment 4
+For any type of logic that is used by the system, we have to implement the logic following the common interface. All standard or custom cases should follow the standards of the interface. The interface can be designed to handle the common inputs in all insurance policies. For custom policies the implementation class can handle additional parameters and special outputs.
+Case for example a term plan may have monthly or annual payouts schedule for most customers. But a custom term plan for a special customer has a payout schedule of every 90 days. 
+Interface has to keep these aspects flexible so the calling code can respond to whatever conditions are given by a standard or a custom policy. 
+Based of type of policy given in the database, a selective class is loaded with the record. The calling code will just call methods without caring about if the policy is a standard or custom.
